@@ -1,0 +1,9 @@
+{
+    "name": "db",
+	"description": "database module",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "mongoskin":"x"
+    }
+}
