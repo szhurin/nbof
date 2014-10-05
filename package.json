@@ -1,17 +1,19 @@
 {
-    "name": "test",
-	"description": "REST API Test",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {        
-        "express": "3.x",
-        "lodash": "x",
-        
-        "broadway": "x",
-        "lodash": "x",
-        "simplematrix": "x",
-        "xml2js":"x",
-        
-        "nodeBundle": "git://github.com/szhurin/nodeBundle.git"
-    }
+  "name" : "nbof",
+  "description" : "REST API Test",
+  "version" : "0.0.1",
+  "private" : true,
+  "dependencies" : {
+    "express" : "4.x",
+    "lodash" : "x",
+    "broadway" : "x",
+    "simplematrix" : "x",
+    "xml2js" : "x",
+    "nodeBundle" : "git://github.com/szhurin/nodeBundle.git"
+  },
+  "keywords" : [ ],
+  "bugs" : {
+    "url" : "null"
+  },
+  "main" : "./"
 }

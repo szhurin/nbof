@@ -1,4 +1,5 @@
 process.env.TZ = 'UTC' ;
+
 // find . -name package.json -maxdepth 2 -execdir npm install \;
 console.log('-------------------------------------------------------------------');
 var nb = require('nodeBundle');
@@ -16,7 +17,7 @@ nb.attach(['app'], options);         // application level bundles
 
 var di = nb.getDI();
 
-di.__router.addPreRoute('bodyParser');
+//di.__router.addPreRoute('bodyParser');
 //var settings = di.__router.register();
 
 console.log('good');
